@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: #ffff;
+
+}
+.logo>img{
+    margin-right: 5px;
+    border-radius: 50px;
+}
+
+.brand-pic {
+    border: 1px solid #7DADDE;
+    box-shadow: 5px 3px 5px 5px #7CACDD;
+    border-radius: 15px;
+    margin: 7px;
+}
+h2 {
+    font-family: 'Patrick Hand', cursive;
+}
+.box{
+    border: 2px dotted yellow;
+    border-radius: 5px;
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.skill {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.demo {
+    text-align: center;
+}
+
+.progress {
+    border-radius: 50px;
+    animation: html 5s normal forwards;
+}
+
+@keyframes html {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 95%;
+    }
+}
+
+.progress {
+    font-size: 13px;
+    font-weight: 900;
+}
+.pro-head{
+    border: 5px solid green;
+}
+.pro{
+    justify-content: space-between;
+    display: flex;
+}
+
+.cnt {
+    text-align: center;
+    text-decoration: underline;
+    color: yellow;
+    font-size: 55px;
+}
+
+.fa-user {
+    padding: 10px;
+}
+
+.fa-envelope {
+    padding: 9px;
+}
+
+.fa-pencil {
+    padding-bottom: 156px;
+    padding-right: 18px;
+}
+.submit{
+    font-size: 46px;
+    padding: 17px 477px;
+    font-weight: 900;
+    color: yellow;
+}
+.footer{
+    font-size: 30px;
+    font-weight: 900;
+}
+#contact{
+    border: 5px solid black;
+    
+}
+.me{
+    font-size: 30px;
+    font-weight: 900;
+    border-radius: 5px;
+    width: 300px;
+    height: 50px;
+    padding: 5px;
+}
+.radius{
+    
+}

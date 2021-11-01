@@ -107,6 +107,12 @@ h2 {
     height: 50px;
     padding: 5px;
 }
-.radius{
-    
+
+
+@media screen and (max-width: 350px){
+    .me{
+        font-size: 20px;
+        width: 200px;
+        height: 30px;
+    }
 }
